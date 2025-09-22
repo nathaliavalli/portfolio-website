@@ -1,23 +1,25 @@
 import React from 'react';
 import Header from './components/Header/Header';
+import Hero from './components/Hero/Hero';
+import About from './components/About/About';
+import Skills from './components/Skills/Skills';
+import Projects from './components/Projects/Projects';
+import Contact from './components/Contact/Contact';
 
 function App() {
   return (
-    <div className="min-h-screen bg-gray-50">
+    <div className="min-h-screen bg-white">
       <Header />
       
-      {/* Add padding-top to account for fixed header */}
+      {/* Main content with padding for fixed header */}
       <main className="pt-16">
-        <div className="bg-blue-500 text-white p-8 text-center">
-          <h1 className="text-4xl font-bold">Nathalia Valli</h1>
-          <p className="text-xl mt-2">Software Engineer & Problem Solver</p>
-        </div>
+        <Hero />
+        <About />
+        <Skills />
+        <Projects />
+        <Contact />
         
-        <div className="max-w-4xl mx-auto p-8">
-          <p className="text-gray-700 text-lg">
-            Coming soon: Full portfolio with projects, skills, and more!
-          </p>
-        </div>
+        
       </main>
     </div>
   );
