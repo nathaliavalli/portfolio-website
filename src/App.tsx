@@ -1,24 +1,24 @@
 import React from 'react';
-import logo from './logo.svg';
-import './App.css';
+import Header from './components/Header/Header';
 
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.tsx</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+    <div className="min-h-screen bg-gray-50">
+      <Header />
+      
+      {/* Add padding-top to account for fixed header */}
+      <main className="pt-16">
+        <div className="bg-blue-500 text-white p-8 text-center">
+          <h1 className="text-4xl font-bold">Nathalia Valli</h1>
+          <p className="text-xl mt-2">Software Engineer & Problem Solver</p>
+        </div>
+        
+        <div className="max-w-4xl mx-auto p-8">
+          <p className="text-gray-700 text-lg">
+            Coming soon: Full portfolio with projects, skills, and more!
+          </p>
+        </div>
+      </main>
     </div>
   );
 }
