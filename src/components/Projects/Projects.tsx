@@ -63,7 +63,7 @@ const Projects: React.FC = () => {
       ],
       github: "https://github.com/nathaliavalli/Spaceify_",
       liveDemo: "#", // Update with actual demo link
-      image: "/projects/spaceify-preview.png", // Add project image
+      image: "/spaceify.png", 
       category: "System Architecture",
       timeline: "Fall 2024",
     },
@@ -94,7 +94,7 @@ const Projects: React.FC = () => {
         "Memory management optimization",
       ],
       github: "https://github.com/nathaliavalli/ShellProject",
-      image: "/projects/shell-preview.png", // Add project image
+      image: "/shell.png", // Add project image
       category: "Systems Programming",
       timeline: "Spring 2024",
     },
@@ -127,7 +127,7 @@ const Projects: React.FC = () => {
       github: "https://github.com/nathaliavalli/matlab",
       documentation:
         "https://github.com/nathaliavalli/matlab/blob/main/README.md",
-      image: "/projects/matlab-preview.png", // Add project image
+      image: "/matlab.png", // Add project image
       category: "Mathematical Modeling",
       timeline: "Spring 2024",
     },
