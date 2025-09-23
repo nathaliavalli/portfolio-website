@@ -6,8 +6,8 @@ const Skills: React.FC = () => {
       title: "Programming Languages",
       icon: "💻",
       skills: [
-        { name: "Java", level: "Intermediate" },
-        { name: "JavaScript/TypeScript", level: "Advanced" },
+        { name: "Java", level: "Beginner" },
+        { name: "JavaScript/TypeScript", level: "Intermediate" },
         { name: "Python", level: "Intermediate" },
         { name: "C/C++", level: "Beginner" },
         { name: "MATLAB", level: "Advanced" }
@@ -17,18 +17,18 @@ const Skills: React.FC = () => {
       title: "Web Development",
       icon: "🌐",
       skills: [
-        { name: "React", level: "Advanced" },
+        { name: "React", level: "Intermediate" },
         { name: "Node.js", level: "Intermediate" },
-        { name: "HTML/CSS", level: "Advanced" },
-        { name: "RESTful APIs", level: "Intermediate" },
-        { name: "Responsive Design", level: "Advanced" }
+        { name: "HTML/CSS", level: "Intermediate" },
+        { name: "RESTful APIs", level: "Beginner" },
+        { name: "Responsive Design", level: "Intermediate" }
       ]
     },
     {
       title: "Software Engineering",
       icon: "⚙️",
       skills: [
-        { name: "Git/GitHub/GitLab", level: "Advanced" },
+        { name: "Git/GitHub/GitLab", level: "Intermediate" },
         { name: "Agile/Scrum", level: "Intermediate" },
         { name: "CI/CD", level: "Beginner" },
         { name: "Testing Frameworks", level: "Beginner" },
@@ -39,33 +39,33 @@ const Skills: React.FC = () => {
       title: "Systems & Tools",
       icon: "🛠️",
       skills: [
-        { name: "Unix/Linux", level: "Intermediate" },
+        { name: "Unix/Linux", level: "Beginner" },
         { name: "System Programming", level: "Intermediate" },
         { name: "Database Systems", level: "Beginner" },
         { name: "Jira", level: "Intermediate" },
-        { name: "LaTeX", level: "Advanced" }
+        { name: "LaTeX", level: "Intermediate" }
       ]
     },
     {
       title: "Mathematical & Analytical",
       icon: "📊",
       skills: [
-        { name: "Algorithm Development", level: "Intermediate" },
-        { name: "Mathematical Modeling", level: "Advanced" },
+        { name: "Algorithm Development", level: "Beginner" },
+        { name: "Mathematical Modeling", level: "Intermediate" },
         { name: "Statistical Analysis", level: "Intermediate" },
-        { name: "Data Structures", level: "Intermediate" },
-        { name: "Problem Solving", level: "Advanced" }
+        { name: "Data Structures", level: "Beginner" },
+        { name: "Problem Solving", level: "Intermediate" }
       ]
     },
     {
       title: "Professional Skills",
       icon: "🤝",
       skills: [
-        { name: "Team Collaboration", level: "Advanced" },
-        { name: "Customer Service", level: "Advanced" },
-        { name: "Technical Writing", level: "Intermediate" },
-        { name: "Project Management", level: "Intermediate" },
-        { name: "Time Management", level: "Advanced" }
+        { name: "Team Collaboration", level: "Intermediate" },
+        { name: "Customer Service", level: "Intermediate" },
+        { name: "Technical Writing", level: "Beginner" },
+        { name: "Project Management", level: "Beginner" },
+        { name: "Time Management", level: "Intermediate" }
       ]
     }
   ];
